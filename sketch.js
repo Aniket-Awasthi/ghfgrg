@@ -43,7 +43,7 @@ function drawKeypoints() {
       if (keypoint.score > 0.2) {
         fill(255, 0, 0);
     
-        ellipse(keypoint.position.x, keypoint.position.y, 10, 10);
+        ellipse(keypoint.position.x + 640, keypoint.position.y, 10, 10);
       }
     }
   }
